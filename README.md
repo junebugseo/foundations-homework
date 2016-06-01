@@ -13,6 +13,10 @@ Good kinds of pancakes:
 * Dorayaki
 * Silver dollars
 * Injera
+Ranked pancakes:
+1. banana pancakes
+2. okonomiyaki
+3. 
 
 ### I don't really know what's going on
 Here's some more text
