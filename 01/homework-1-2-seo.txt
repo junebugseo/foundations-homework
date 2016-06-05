@@ -1,0 +1,267 @@
+Last login: Fri Jun  3 21:30:09 on ttys000
+Jeongwon-Seo:~ apple$ cd Downloads
+Jeongwon-Seo:Downloads apple$ cd clmystery-master/
+Jeongwon-Seo:clmystery-master apple$ ls -lah
+total 528
+drwxr-xr-x@  19 apple  staff   646B May 23 16:18 .
+drwx------+ 123 apple  staff   4.1K Jun  1 14:11 ..
+-rw-r--r--@   1 apple  staff   6.0K May 23 16:18 .DS_Store
+-rwxr-xr-x@   1 apple  staff   1.0K Feb  2 08:08 LICENSE.md
+-rwxr-xr-x@   1 apple  staff   2.6K Feb  2 08:08 README.md
+-rwxr-xr-x@   1 apple  staff    14K Feb  2 08:08 cheatsheet.md
+-rwxr-xr-x@   1 apple  staff   187K Feb  2 08:08 cheatsheet.pdf
+-rwxr-xr-x@   1 apple  staff   1.0K Feb  2 08:08 encoded
+-rwxr-xr-x@   1 apple  staff   146B Feb  2 08:08 hint1
+-rwxr-xr-x@   1 apple  staff    88B Feb  2 08:08 hint2
+-rwxr-xr-x@   1 apple  staff   187B Feb  2 08:08 hint3
+-rwxr-xr-x@   1 apple  staff   183B Feb  2 08:08 hint4
+-rwxr-xr-x@   1 apple  staff   280B Feb  2 08:08 hint5
+-rwxr-xr-x@   1 apple  staff   272B Feb  2 08:08 hint6
+-rwxr-xr-x@   1 apple  staff   329B Feb  2 08:08 hint7
+-rwxr-xr-x@   1 apple  staff   473B Feb  2 08:08 hint8
+-rwxr-xr-x@   1 apple  staff   2.5K Feb  2 08:08 instructions
+drwxr-xr-x@   9 apple  staff   306B May 23 16:18 mystery
+-rwxr-xr-x@   1 apple  staff   1.1K Feb  2 08:08 solution
+Jeongwon-Seo:clmystery-master apple$ cat README.md 
+The Command Line Murders
+========================
+
+	.OOOOOOOOOOOOOOO @@                                   @@ OOOOOOOOOOOOOOOO.
+	OOOOOOOOOOOOOOOO @@                                    @@ OOOOOOOOOOOOOOOO
+	OOOOOOOOOO'''''' @@                                    @@ ```````OOOOOOOOO
+	OOOOO'' aaa@@@@@@@@@@@@@@@@@@@@"""                   """""""""@@aaaa `OOOO
+	OOOOO,""""@@@@@@@@@@@@@@""""                                     a@"" OOOA
+	OOOOOOOOOoooooo,                                            |OOoooooOOOOOS
+	OOOOOOOOOOOOOOOOo,                                          |OOOOOOOOOOOOC
+	OOOOOOOOOOOOOOOOOO                                         ,|OOOOOOOOOOOOI
+	OOOOOOOOOOOOOOOOOO @          THE                          |OOOOOOOOOOOOOI
+	OOOOOOOOOOOOOOOOO'@           COMMAND                      OOOOOOOOOOOOOOb
+	OOOOOOOOOOOOOOO'a'            LINE                         |OOOOOOOOOOOOOy
+	OOOOOOOOOOOOOO''              MURDERS                      aa`OOOOOOOOOOOP
+	OOOOOOOOOOOOOOb,..                                          `@aa``OOOOOOOh
+	OOOOOOOOOOOOOOOOOOo                                           `@@@aa OOOOo
+	OOOOOOOOOOOOOOOOOOO|                                             @@@ OOOOe
+	OOOOOOOOOOOOOOOOOOO@                               aaaaaaa       @@',OOOOn
+	OOOOOOOOOOOOOOOOOOO@                        aaa@@@@@@@@""        @@ OOOOOi
+	OOOOOOOOOO~~ aaaaaa"a                 aaa@@@@@@@@@@""            @@ OOOOOx
+	OOOOOO aaaa@"""""""" ""            @@@@@@@@@@@@""               @@@|`OOOO'
+	OOOOOOOo`@@a                  aa@@  @@@@@@@""         a@        @@@@ OOOO9
+	OOOOOOO'  `@@a               @@a@@   @@""           a@@   a     |@@@ OOOO3
+	`OOOO'       `@    aa@@       aaa"""          @a        a@     a@@@',OOOO'
+
+
+There's been a murder in Terminal City, and TCPD needs your help.
+
+To figure out whodunit, you need access to a command line.
+
+Once you're ready, clone this repo, or [download it as a zip file](https://github.com/veltman/clmystery/archive/master.zip).
+
+Open a Terminal, go to the location of the files, and start by reading the file 'instructions'.
+
+One way you can do this is with the command:
+
+	cat instructions
+
+(`cat` is a command that will print the contents of the file called `instructions` for you to read.)
+
+To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'nano cheatsheet.md').
+
+Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
+
+### Credits
+
+By Noah Veltman  
+Projects: [noahveltman.com](http://noahveltman.com)  
+GitHub: [veltman](https://github.com/veltman)  
+Twitter: [@veltman](https://twitter.com/veltman)  
+Jeongwon-Seo:clmystery-master apple$ cat instructions 
+.OOOOOOOOOOOOOOO @@                                   @@ OOOOOOOOOOOOOOOO.
+OOOOOOOOOOOOOOOO @@                                    @@ OOOOOOOOOOOOOOOO
+OOOOOOOOOO'''''' @@                                    @@ ```````OOOOOOOOO
+OOOOO'' aaa@@@@@@@@@@@@@@@@@@@@"""                   """""""""@@aaaa `OOOO
+OOOOO,""""@@@@@@@@@@@@@@""""                                     a@"" OOOA
+OOOOOOOOOoooooo,                                            |OOoooooOOOOOS
+OOOOOOOOOOOOOOOOo,                                          |OOOOOOOOOOOOC
+OOOOOOOOOOOOOOOOOO                                         ,|OOOOOOOOOOOOI
+OOOOOOOOOOOOOOOOOO @          THE                          |OOOOOOOOOOOOOI
+OOOOOOOOOOOOOOOOO'@           COMMAND                      OOOOOOOOOOOOOOb
+OOOOOOOOOOOOOOO'a'            LINE                         |OOOOOOOOOOOOOy
+OOOOOOOOOOOOOO''              MURDERS                      aa`OOOOOOOOOOOP
+OOOOOOOOOOOOOOb,..                                          `@aa``OOOOOOOh
+OOOOOOOOOOOOOOOOOOo                                           `@@@aa OOOOo
+OOOOOOOOOOOOOOOOOOO|                                             @@@ OOOOe
+OOOOOOOOOOOOOOOOOOO@                               aaaaaaa       @@',OOOOn
+OOOOOOOOOOOOOOOOOOO@                        aaa@@@@@@@@""        @@ OOOOOi
+OOOOOOOOOO~~ aaaaaa"a                 aaa@@@@@@@@@@""            @@ OOOOOx
+OOOOOO aaaa@"""""""" ""            @@@@@@@@@@@@""               @@@|`OOOO'
+OOOOOOOo`@@a                  aa@@  @@@@@@@""         a@        @@@@ OOOO9
+OOOOOOO'  `@@a               @@a@@   @@""           a@@   a     |@@@ OOOO3
+`OOOO'       `@    aa@@       aaa"""          @a        a@     a@@@',OOOO'
+
+
+There's been a murder in Terminal City, and TCPD needs your help.
+
+To figure out whodunit, go to the 'mystery' subdirectory and start working from there.
+
+You'll want to start by collecting all the clues at the crime scene (the 'crimescene' file).
+
+The officers on the scene are pretty meticulous, so they've written down EVERYTHING in their officer reports.
+
+Fortunately the sergeant went through and marked the real clues with the word "CLUE" in all caps.
+
+If you get stuck, open one of the hint files (from the CL, type 'cat hint1', 'cat hint2', etc.).
+
+To check your answer or find out the solution, open the file 'solution' (from the CL, type 'cat solution').
+
+To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'nano cheatsheet.md').
+
+Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
+Jeongwon-Seo:clmystery-master apple$ cd mystery/
+Jeongwon-Seo:mystery apple$ ls -lah
+total 2280
+drwxr-xr-x@   9 apple  staff   306B May 23 16:18 .
+drwxr-xr-x@  19 apple  staff   646B May 23 16:18 ..
+-rw-r--r--@   1 apple  staff    10K May 23 16:18 .DS_Store
+-rwxr-xr-x@   1 apple  staff   416K Feb  2 08:08 crimescene
+drwxr-xr-x@ 427 apple  staff    14K Feb  2 08:08 interviews
+drwxr-xr-x@  13 apple  staff   442B Feb  2 08:08 memberships
+-rwxr-xr-x@   1 apple  staff   218K Feb  2 08:08 people
+drwxr-xr-x@ 224 apple  staff   7.4K Feb  2 08:08 streets
+-rwxr-xr-x@   1 apple  staff   486K Feb  2 08:08 vehicles
+Jeongwon-Seo:mystery apple$ grep 'CLUE' crimescene
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+Jeongwon-Seo:mystery apple$ grep 'Annabel' people
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+Jeongwon-Seo:mystery apple$ head -n 173 streets/Mattapan_Street | tail -n 1
+SEE INTERVIEW #9437737
+Jeongwon-Seo:mystery apple$ head -n 176 streets/Haley_Street | tail -n 1
+SEE INTERVIEW #871877
+Jeongwon-Seo:mystery apple$ head -n 40 streets/Hart_Place | tail -n 1
+SEE INTERVIEW #47246024
+Jeongwon-Seo:mystery apple$ head -n 179 streets/Buckingham_Place | tail -n 1
+SEE INTERVIEW #699607
+Jeongwon-Seo:mystery apple$ cd interview
+-bash: cd: interview: No such file or directory
+Jeongwon-Seo:mystery apple$ cd interviews
+Jeongwon-Seo:interviews apple$ cat interview-699607
+Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"
+Jeongwon-Seo:interviews apple$ cd ..
+Jeongwon-Seo:mystery apple$ grep -A 5 "L337" vehicles
+License Plate L337ZR9
+Make: Honda
+Color: Red
+Owner: Katie Park
+Height: 6'2"
+Weight: 189 lbs
+--
+License Plate L337P89
+Make: Honda
+Color: Teal
+Owner: Mike Bostock
+Height: 6'4"
+Weight: 173 lbs
+--
+License Plate L337GX9
+Make: Mazda
+Color: Orange
+Owner: John Keefe
+Height: 6'4"
+Weight: 185 lbs
+--
+License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+--
+License Plate L337GB9
+Make: Toyota
+Color: Blue
+Owner: Matt Waite
+Height: 6'1"
+Weight: 190 lbs
+--
+License Plate L337OI9
+Make: Jaguar
+Color: Blue
+Owner: Brian Boyer
+Height: 6'6"
+Weight: 201 lbs
+--
+License Plate L337X19
+Make: Fiat
+Color: Blue
+Owner: Al Shaw
+Height: 6'5"
+Weight: 240 lbs
+--
+License Plate L337539
+Make: Honda
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+Weight: 198 lbs
+--
+License Plate L3373U9
+Make: Ford
+Color: Blue
+Owner: Miranda Mulligan
+Height: 6'6"
+Weight: 156 lbs
+--
+License Plate L337369
+Make: Honda
+Color: Blue
+Owner: Heather Billings
+Height: 5'2"
+Weight: 244 lbs
+--
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+--
+License Plate L337WR9
+Make: Honda
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+Jeongwon-Seo:mystery apple$ cd memberships/
+Jeongwon-Seo:memberships apple$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Erika Owens"
+0
+Jeongwon-Seo:memberships apple$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+2
+Jeongwon-Seo:memberships apple$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+4
+Jeongwon-Seo:memberships apple$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher"
+4
+Jeongwon-Seo:memberships apple$ cd ..
+Jeongwon-Seo:mystery apple$ grep "Jacqui Maher" people
+Jacqui Maher	F	40	Andover Road, line 224
+Jeongwon-Seo:mystery apple$ grep "Jeremy Bowers" people
+Jeremy Bowers	M	34	Dunstable Road, line 284
+Jeongwon-Seo:mystery apple$ echo "Jeremy Bowers" | $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
+grep: encoded: No such file or directory
+SORRY, TRY AGAIN.
+Jeongwon-Seo:mystery apple$ cd ..
+Jeongwon-Seo:clmystery-master apple$ echo "Jeremy Bowers" | $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
+CORRECT! GREAT WORK, GUMSHOE.
+Jeongwon-Seo:clmystery-master apple$ 
